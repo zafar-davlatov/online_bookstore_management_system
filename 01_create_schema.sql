@@ -1,5 +1,1 @@
-CREATE DATABASE env_monitoring_db;
-
-CREATE SCHEMA IF NOT EXISTS monitoring;
-
-SET search_path TO monitoring;
+CREATE SCHEMA IF NOT EXISTS bookstore; SET search_path TO bookstore, public;
